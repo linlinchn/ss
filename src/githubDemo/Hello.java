@@ -20,7 +20,9 @@ public class Hello {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("nihao `");
+		//System.out.println("nihao `");
+		MyDemo mm = new MyDemo();
+		mm.print(mm.getClass().getName());
 
 	}
 
